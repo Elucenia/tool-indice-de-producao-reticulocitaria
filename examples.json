@@ -1,0 +1,80 @@
+[
+  {
+    "label": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+    "input": {
+      "ret": 6,
+      "ht": 25
+    },
+    "expected": {
+      "raw": {
+        "corr": 3.333,
+        "mf": 2,
+        "ipr": 1.667
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "ret": 6,
+      "ht": 25
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+    "input": {
+      "ret": 10,
+      "ht": 30
+    },
+    "expected": {
+      "raw": {
+        "corr": 6.667,
+        "mf": 1.5,
+        "ipr": 4.444
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "ret": 10,
+      "ht": 30
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+    "input": {
+      "ret": 5.4,
+      "ht": 25
+    },
+    "expected": {
+      "raw": {
+        "corr": 3,
+        "ipr": 1.5
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "ret": 5.4,
+      "ht": 25
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+    "input": {
+      "ret": 9,
+      "ht": 20
+    },
+    "expected": {
+      "raw": {
+        "corr": 4,
+        "ipr": 2
+      },
+      "level": "mid"
+    },
+    "originalInput": {
+      "ret": 9,
+      "ht": 20
+    },
+    "expandedZeroOptions": []
+  }
+]

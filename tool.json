@@ -1,0 +1,164 @@
+{
+  "tool": {
+    "id": "indice-de-producao-reticulocitaria",
+    "title": "Reticulócitos corrigidos e IPR",
+    "short": "Resposta medular na anemia",
+    "desc": "Corrige os reticulócitos pelo hematócrito e calcula o índice de produção reticulocitária (IPR) para separar anemia hipoproliferativa de perda ou hemólise.",
+    "lead": "Avalia se a medula óssea está respondendo à anemia, corrigindo a porcentagem de reticulócitos pelo grau de anemia e pelo tempo de maturação.",
+    "spec": [
+      "hematologia-e-hemoterapia",
+      "medicina-laboratorial",
+      "clinica-medica",
+      "pediatria"
+    ],
+    "fields": [
+      [
+        "ret",
+        "Reticulócitos",
+        "num",
+        {
+          "min": 0,
+          "max": 50,
+          "step": 0.1,
+          "unit": "%",
+          "ph": "6"
+        }
+      ],
+      [
+        "ht",
+        "Hematócrito",
+        "num",
+        {
+          "min": 5,
+          "max": 65,
+          "step": 0.1,
+          "unit": "%",
+          "ph": "25"
+        }
+      ]
+    ],
+    "formula": "<p><strong>Reticulócitos corrigidos (%) = reticulócitos (%) × hematócrito ÷ 45</strong>.</p><p><strong>IPR = reticulócitos corrigidos ÷ fator de maturação</strong>, em que o fator (tempo de maturação no sangue, em dias) é 1,0 com Ht ≥ 40%; 1,5 com 30–39%; 2,0 com 20–29%; 2,5 com &lt; 20%.</p>",
+    "table": [
+      [
+        "IPR",
+        "Interpretação"
+      ],
+      [
+        "&lt; 2",
+        "Hipoproliferativa: deficiência de ferro, B12 ou folato, doença renal, inflamação, falência medular"
+      ],
+      [
+        "2–3",
+        "Limítrofe"
+      ],
+      [
+        "≥ 3",
+        "Resposta adequada: hemólise ou sangramento agudo em recuperação"
+      ]
+    ],
+    "tips": [
+      "Use a porcentagem de reticulócitos; se o laboratório só informa o valor absoluto, divida pela contagem de hemácias para obter a porcentagem.",
+      "Após sangramento agudo, a resposta reticulocitária leva de 3 a 5 dias para aparecer: IPR baixo no primeiro dia não indica medula insuficiente.",
+      "Na deficiência de ferro em reposição, o pico de reticulócitos em 7 a 10 dias confirma a resposta ao tratamento.",
+      "Hemólise com IPR baixo sugere crise aplásica (parvovírus B19) ou deficiência nutricional associada."
+    ],
+    "sources": [
+      [
+        "Hillman RS. Characteristics of marrow production and reticulocyte maturation in normal man in response to anemia. J Clin Invest, 1969.",
+        "https://doi.org/10.1172/JCI106001"
+      ]
+    ],
+    "cases": [
+      [
+        "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        {
+          "ret": 6,
+          "ht": 25
+        },
+        {
+          "raw": {
+            "corr": 3.333,
+            "mf": 2,
+            "ipr": 1.667
+          },
+          "level": "high"
+        }
+      ],
+      [
+        "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        {
+          "ret": 10,
+          "ht": 30
+        },
+        {
+          "raw": {
+            "corr": 6.667,
+            "mf": 1.5,
+            "ipr": 4.444
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        {
+          "ret": 5.4,
+          "ht": 25
+        },
+        {
+          "raw": {
+            "corr": 3,
+            "ipr": 1.5
+          },
+          "level": "high"
+        }
+      ],
+      [
+        "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        {
+          "ret": 9,
+          "ht": 20
+        },
+        {
+          "raw": {
+            "corr": 4,
+            "ipr": 2
+          },
+          "level": "mid"
+        }
+      ]
+    ],
+    "batch": "onco-diagnostico",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "onco-diagnostico",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/onco-diagnostico.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/onco-diagnostico.php",
+    "sha256": "29e7fd6aab1f8bf937a34267255855c21f804696da2b4817d6197578cdcbe743",
+    "bytes": 78570
+  },
+  "clinicalValidation": "not-performed"
+}
