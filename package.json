@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-indice-de-producao-reticulocitaria",
   "version": "0.1.0",
-  "description": "Reticulócitos corrigidos e IPR · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Reticulócitos corrigidos e IPR · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
