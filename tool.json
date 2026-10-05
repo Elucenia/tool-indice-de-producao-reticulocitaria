@@ -5,6 +5,7 @@
     "short": "Resposta medular na anemia",
     "desc": "Corrige os reticulócitos pelo hematócrito e calcula o índice de produção reticulocitária (IPR) para separar anemia hipoproliferativa de perda ou hemólise.",
     "lead": "Avalia se a medula óssea está respondendo à anemia, corrigindo a porcentagem de reticulócitos pelo grau de anemia e pelo tempo de maturação.",
+    "kind": "Calculadora",
     "spec": [
       "hematologia-e-hemoterapia",
       "medicina-laboratorial",
@@ -38,30 +39,6 @@
       ]
     ],
     "formula": "<p><strong>Reticulócitos corrigidos (%) = reticulócitos (%) × hematócrito ÷ 45</strong>.</p><p><strong>IPR = reticulócitos corrigidos ÷ fator de maturação</strong>, em que o fator (tempo de maturação no sangue, em dias) é 1,0 com Ht ≥ 40%; 1,5 com 30–39%; 2,0 com 20–29%; 2,5 com &lt; 20%.</p>",
-    "table": [
-      [
-        "IPR",
-        "Interpretação"
-      ],
-      [
-        "&lt; 2",
-        "Hipoproliferativa: deficiência de ferro, B12 ou folato, doença renal, inflamação, falência medular"
-      ],
-      [
-        "2–3",
-        "Limítrofe"
-      ],
-      [
-        "≥ 3",
-        "Resposta adequada: hemólise ou sangramento agudo em recuperação"
-      ]
-    ],
-    "tips": [
-      "Use a porcentagem de reticulócitos; se o laboratório só informa o valor absoluto, divida pela contagem de hemácias para obter a porcentagem.",
-      "Após sangramento agudo, a resposta reticulocitária leva de 3 a 5 dias para aparecer: IPR baixo no primeiro dia não indica medula insuficiente.",
-      "Na deficiência de ferro em reposição, o pico de reticulócitos em 7 a 10 dias confirma a resposta ao tratamento.",
-      "Hemólise com IPR baixo sugere crise aplásica (parvovírus B19) ou deficiência nutricional associada."
-    ],
     "sources": [
       [
         "Hillman RS. Characteristics of marrow production and reticulocyte maturation in normal man in response to anemia. J Clin Invest, 1969.",
@@ -128,9 +105,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -139,17 +113,348 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:11:12.383Z",
+      "total": 112,
+      "passed": 112,
+      "sourceRowCount": 112,
+      "uniqueApiInputCount": 112,
+      "sourceContextCount": 112,
+      "scope": "112 arithmetic corrected-reticulocyte/referenceHct45 and simplified-factor scenarios only for Hct>=10, using the indexed official BEQUINT2022 table. Original Hillman1969 approximate factor ranges do not adjudicate the exact local hard intervals; Hct<10 and response classification excluded.",
+      "originalSourceRowCount": 112,
+      "localRejectionContractCount": 0,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "e065406f108d99887069a9bcbfa2041ae87cc11382731f928b43b7e70f5de55a",
+        "total": 112,
+        "bankRowCount": 112,
+        "uniqueApiInputCount": 112,
+        "sourceContextCount": 112,
+        "fullStoredSourceRows": 112,
+        "localRejectionContractCount": 0,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/root-physiology-independent-expectations-final31-r2.json",
+            "sha256": "bc426fb2ff7230f076e54fd4cb9ed20eb528f60466a7e74aefd8be54da17da89"
+          },
+          {
+            "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+            "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+          },
+          {
+            "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+            "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+          "sha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32"
+        },
+        "packagingRequirement": "Artifact contains all429original source rows across6methods, split424accepted numericcases+5separate local rejection contracts. Preserve source indices, original mathematical expectations and old sample precision expectations."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 112,
+        "uniqueApiInputs": 112,
+        "duplicateRows": 0
+      },
+      "sources": [
+        {
+          "rootPrimaryReview": {
+            "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+            "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+          },
+          "independentPrimaryReview": {
+            "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+            "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+          },
+          "targetedReadings": [
+            {
+              "id": "indice-de-producao-reticulocitaria",
+              "url": "https://organesdeconcertation.sante.belgique.be/sites/default/files/content/anemia_surgery-diagnosis-bequint_2022.pdf",
+              "edition": "BEQUINT2022 institutional explanatory table",
+              "access": "Direct PDF web opens failed cache retrieval; personally read indexed official table excerpt, not fullPDF. Hillman1969 local original page10/printed452 rendered and personally viewed only for historical limitations.",
+              "readScope": "Indexed simplified factors: Hct10–19.9→2.5,20–29.9→2,30–39.9→1.5,40+→1; ret%×Hct/45 divided by factor. Hillman values are approximate ranges and do not adjudicate the exact modern hard boundaries.",
+              "selectedScope": "Arithmetic using the2022 simplified table only for Hct>=10.",
+              "excluded": [
+                "Hct<10",
+                "Original1969 equivalence at all boundaries",
+                "Marrow-response classification or clinical recommendations"
+              ]
+            }
+          ],
+          "declaredOriginalMethodVersion": "Hillman 1969:Ht referência 45%, maturação 1/1,5/2/2,5 por faixas locais 40/30/20",
+          "sourceEditionsUnchanged": true,
+          "scope": "112 arithmetic corrected-reticulocyte/referenceHct45 and simplified-factor scenarios only for Hct>=10, using the indexed official BEQUINT2022 table. Original Hillman1969 approximate factor ranges do not adjudicate the exact local hard intervals; Hct<10 and response classification excluded."
+        }
+      ],
+      "evidencePath": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+      "evidenceSha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32",
+      "independentPeer": {
+        "evidence": {
+          "file": "reports/review-20261003/root-physiology-independent-peer-publication-final31-r3.json",
+          "sha256": "2117b8908ee7ab1a8787ead1ce59bb3d3a422dbfe57d83501d746e9dcfbccd91"
+        },
+        "status": "passed-scoped-mathematical",
+        "ownNormalDistQuantilesIndependent": true,
+        "packagingPeer": "pending",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+          "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+          "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+          "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+        }
+      ],
+      "qualifications": [
+        "112 arithmetic corrected-reticulocyte/referenceHct45 and simplified-factor scenarios only for Hct>=10, using the indexed official BEQUINT2022 table. Original Hillman1969 approximate factor ranges do not adjudicate the exact local hard intervals; Hct<10 and response classification excluded.",
+        "Continuous selected fields preserve the original source31R2 criterion1e-11×max(1,abs expected); integer/string fields use exact equality. Parent original fixtures/tolerances and all862historic source cases remain unchanged.",
+        "Three implementations and original actual Node/VM/Chromium captures are hash bound. Fresh Node/VM and complete-bank helper replays are separate from served portal, UI or new build gates.",
+        "Independent expected values: root initial429 mathematically authored before its imports; only84sample expecteds were revised to independently evaluated six-decimal quantiles with old printed-prose expected retained. Independent peer used NormalDist rather than root numerical-integration series.",
+        "No compensation/clinical diagnosis, exercise prediction/FAI, universally applicable dose,1969reticulocyte hard boundaries,44week clinical threshold, study-design suitability, professional language, rights or full-method approval.",
+        "Source28/29/30 and sample documentary amendment are independent ownership: compose evidence leaves over the latest source and recompute counters rather than replacing old whole catalogs."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Hillman 1969:Ht referência 45%, maturação 1/1,5/2/2,5 por faixas locais 40/30/20",
+    "implementationVersion": "indice-de-producao-reticulocitaria@native-2026-10-03+251882d75bf7",
+    "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC535708/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Reticulócitos corrigidos (%) = reticulócitos (%) × hematócrito ÷ 45 . IPR = reticulócitos corrigidos ÷ fator de maturação , em que o fator (tempo de maturação no sangue, em dias) é 1,0 com Ht ≥ 40%; 1,5 com 30–39%; 2,0 com 20–29%; 2,5 com < 20%.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "ret",
+            "label": "Reticulócitos",
+            "type": "num",
+            "min": 0,
+            "max": 50,
+            "unit": "%",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "ht",
+            "label": "Hematócrito",
+            "type": "num",
+            "min": 5,
+            "max": 65,
+            "unit": "%",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "8e4bdad9eeb24ccfd613f8749dabc4c0be26a1b5e75f97c2f9918ad12d58e562"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Hillman RS. Characteristics of marrow production and reticulocyte maturation in normal man in response to anemia. J Clin Invest, 1969.",
+          "url": "https://doi.org/10.1172/JCI106001",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Characteristics of marrow production and reticulocyte maturation in normal man in response to anemia.",
+            "year": "1969",
+            "firstPublicationDate": "1969-03-01",
+            "doi": "10.1172/jci106001",
+            "pmid": "5773082",
+            "pmcid": "PMC535708",
+            "journal": "The Journal of clinical investigation",
+            "authors": "Hillman RS."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC535708/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "87f4b68d920f96f8c303d5815eafa45dcf010f03dfbee5a5e05bcec60be3c1f0",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:11:12.383Z",
+        "total": 112,
+        "passed": 112,
+        "sourceRowCount": 112,
+        "uniqueApiInputCount": 112,
+        "sourceContextCount": 112,
+        "scope": "112 arithmetic corrected-reticulocyte/referenceHct45 and simplified-factor scenarios only for Hct>=10, using the indexed official BEQUINT2022 table. Original Hillman1969 approximate factor ranges do not adjudicate the exact local hard intervals; Hct<10 and response classification excluded.",
+        "originalSourceRowCount": 112,
+        "localRejectionContractCount": 0,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "e065406f108d99887069a9bcbfa2041ae87cc11382731f928b43b7e70f5de55a",
+          "total": 112,
+          "bankRowCount": 112,
+          "uniqueApiInputCount": 112,
+          "sourceContextCount": 112,
+          "fullStoredSourceRows": 112,
+          "localRejectionContractCount": 0,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/root-physiology-independent-expectations-final31-r2.json",
+              "sha256": "bc426fb2ff7230f076e54fd4cb9ed20eb528f60466a7e74aefd8be54da17da89"
+            },
+            {
+              "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+              "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+            },
+            {
+              "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+              "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+            "sha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32"
+          },
+          "packagingRequirement": "Artifact contains all429original source rows across6methods, split424accepted numericcases+5separate local rejection contracts. Preserve source indices, original mathematical expectations and old sample precision expectations."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 112,
+          "uniqueApiInputs": 112,
+          "duplicateRows": 0
+        },
+        "sources": [
+          {
+            "rootPrimaryReview": {
+              "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+              "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+            },
+            "independentPrimaryReview": {
+              "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+              "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+            },
+            "targetedReadings": [
+              {
+                "id": "indice-de-producao-reticulocitaria",
+                "url": "https://organesdeconcertation.sante.belgique.be/sites/default/files/content/anemia_surgery-diagnosis-bequint_2022.pdf",
+                "edition": "BEQUINT2022 institutional explanatory table",
+                "access": "Direct PDF web opens failed cache retrieval; personally read indexed official table excerpt, not fullPDF. Hillman1969 local original page10/printed452 rendered and personally viewed only for historical limitations.",
+                "readScope": "Indexed simplified factors: Hct10–19.9→2.5,20–29.9→2,30–39.9→1.5,40+→1; ret%×Hct/45 divided by factor. Hillman values are approximate ranges and do not adjudicate the exact modern hard boundaries.",
+                "selectedScope": "Arithmetic using the2022 simplified table only for Hct>=10.",
+                "excluded": [
+                  "Hct<10",
+                  "Original1969 equivalence at all boundaries",
+                  "Marrow-response classification or clinical recommendations"
+                ]
+              }
+            ],
+            "declaredOriginalMethodVersion": "Hillman 1969:Ht referência 45%, maturação 1/1,5/2/2,5 por faixas locais 40/30/20",
+            "sourceEditionsUnchanged": true,
+            "scope": "112 arithmetic corrected-reticulocyte/referenceHct45 and simplified-factor scenarios only for Hct>=10, using the indexed official BEQUINT2022 table. Original Hillman1969 approximate factor ranges do not adjudicate the exact local hard intervals; Hct<10 and response classification excluded."
+          }
+        ],
+        "evidencePath": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+        "evidenceSha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32",
+        "independentPeer": {
+          "evidence": {
+            "file": "reports/review-20261003/root-physiology-independent-peer-publication-final31-r3.json",
+            "sha256": "2117b8908ee7ab1a8787ead1ce59bb3d3a422dbfe57d83501d746e9dcfbccd91"
+          },
+          "status": "passed-scoped-mathematical",
+          "ownNormalDistQuantilesIndependent": true,
+          "packagingPeer": "pending",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+            "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+            "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+            "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+          }
+        ],
+        "qualifications": [
+          "112 arithmetic corrected-reticulocyte/referenceHct45 and simplified-factor scenarios only for Hct>=10, using the indexed official BEQUINT2022 table. Original Hillman1969 approximate factor ranges do not adjudicate the exact local hard intervals; Hct<10 and response classification excluded.",
+          "Continuous selected fields preserve the original source31R2 criterion1e-11×max(1,abs expected); integer/string fields use exact equality. Parent original fixtures/tolerances and all862historic source cases remain unchanged.",
+          "Three implementations and original actual Node/VM/Chromium captures are hash bound. Fresh Node/VM and complete-bank helper replays are separate from served portal, UI or new build gates.",
+          "Independent expected values: root initial429 mathematically authored before its imports; only84sample expecteds were revised to independently evaluated six-decimal quantiles with old printed-prose expected retained. Independent peer used NormalDist rather than root numerical-integration series.",
+          "No compensation/clinical diagnosis, exercise prediction/FAI, universally applicable dose,1969reticulocyte hard boundaries,44week clinical threshold, study-design suitability, professional language, rights or full-method approval.",
+          "Source28/29/30 and sample documentary amendment are independent ownership: compose evidence leaves over the latest source and recompute counters rather than replacing old whole catalogs."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+    },
+    "limits": "A correção reticulocitária depende da alteração do tempo de maturação associada à gravidade da anemia. O estudo original usou anemia provocada por flebotomia em pessoas normais; faixas simplificadas locais não foram confirmadas pelo resumo. O índice não determina sozinho etiologia ou reserva medular em qualquer doença.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.126Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não mostra hematócrito de referência 45%, faixas de maturação locais ou cortes de adequação universal. Não determina causa da anemia pelo índice isolado."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
+    "bytes": 4945,
+    "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "3d7eba576c3749bc52b33dee8ac023bba0ecadff7a6be4461cccb816237e5f48",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "a0152a94a164349ce0b4a186f5c53d1babd2c7c16b47536f63e0df8f20978e7a",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "a0152a94a164349ce0b4a186f5c53d1babd2c7c16b47536f63e0df8f20978e7a",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

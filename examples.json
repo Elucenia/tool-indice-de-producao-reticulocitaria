@@ -1,6 +1,13 @@
 [
   {
-    "label": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+    "id": "indice-de-producao-reticulocitaria",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+    "originalInput": {
+      "ret": 6,
+      "ht": 25
+    },
     "input": {
       "ret": 6,
       "ht": 25
@@ -13,14 +20,36 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "ret": 6,
-      "ht": 25
+    "recordedResult": {
+      "main": [
+        "1,7",
+        ""
+      ],
+      "label": "Índice de produção reticulocitária",
+      "raw": {
+        "corr": 3.3333333333333335,
+        "mf": 2,
+        "ipr": 1.6666666666666667
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+    "id": "indice-de-producao-reticulocitaria",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+    "originalInput": {
+      "ret": 10,
+      "ht": 30
+    },
     "input": {
       "ret": 10,
       "ht": 30
@@ -33,14 +62,36 @@
       },
       "level": "low"
     },
-    "originalInput": {
-      "ret": 10,
-      "ht": 30
+    "recordedResult": {
+      "main": [
+        "4,4",
+        ""
+      ],
+      "label": "Índice de produção reticulocitária",
+      "raw": {
+        "corr": 6.666666666666667,
+        "mf": 1.5,
+        "ipr": 4.444444444444445
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+    "id": "indice-de-producao-reticulocitaria",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+    "originalInput": {
+      "ret": 5.4,
+      "ht": 25
+    },
     "input": {
       "ret": 5.4,
       "ht": 25
@@ -52,14 +103,36 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "ret": 5.4,
-      "ht": 25
+    "recordedResult": {
+      "main": [
+        "1,5",
+        ""
+      ],
+      "label": "Índice de produção reticulocitária",
+      "raw": {
+        "corr": 3,
+        "mf": 2,
+        "ipr": 1.5
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+    "id": "indice-de-producao-reticulocitaria",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+    "originalInput": {
+      "ret": 9,
+      "ht": 20
+    },
     "input": {
       "ret": 9,
       "ht": 20
@@ -71,10 +144,25 @@
       },
       "level": "mid"
     },
-    "originalInput": {
-      "ret": 9,
-      "ht": 20
+    "recordedResult": {
+      "main": [
+        "2,0",
+        ""
+      ],
+      "label": "Índice de produção reticulocitária",
+      "raw": {
+        "corr": 4,
+        "mf": 2,
+        "ipr": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
