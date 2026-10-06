@@ -65,3 +65,47 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+IPR < 2: hypoproliferative anemia (insufficient production)
+
+| Result details | |
+| --- | --- |
+| Reticulocytes corrected by hematocrit | 3.3% |
+| Maturation factor used | 2.0 day(s) |
+
+
+### 2
+
+IPR ≥ 3: adequate marrow response (hemolysis or acute loss)
+
+| Result details | |
+| --- | --- |
+| Reticulocytes corrected by hematocrit | 6.7% |
+| Maturation factor used | 1.5 day(s) |
+
+
+### 3
+
+IPR < 2: hypoproliferative anemia (insufficient production)
+
+| Result details | |
+| --- | --- |
+| Reticulocytes corrected by hematocrit | 3.0% |
+| Maturation factor used | 2.0 day(s) |
+
+
+### 4
+
+IPR between 2 and 3: borderline response
+
+| Result details | |
+| --- | --- |
+| Reticulocytes corrected by hematocrit | 4.0% |
+| Maturation factor used | 2.0 day(s) |
+

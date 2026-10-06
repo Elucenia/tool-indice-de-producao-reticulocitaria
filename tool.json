@@ -235,7 +235,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Hillman 1969:Ht referência 45%, maturação 1/1,5/2/2,5 por faixas locais 40/30/20",
-    "implementationVersion": "indice-de-producao-reticulocitaria@native-2026-10-03+251882d75bf7",
+    "implementationVersion": "indice-de-producao-reticulocitaria@native-2026-10-05+83503d417649",
     "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC535708/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -419,7 +419,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+      "implementationHash": "83503d417649408cd40ad9598272952817547d6b37a439a7719717266bf959d3",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "indice-de-producao-reticulocitaria@native-2026-10-03+251882d75bf7",
+          "previousImplementationHash": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9",
+          "implementationHash": "83503d417649408cd40ad9598272952817547d6b37a439a7719717266bf959d3",
+          "scientificBodySha256": "a71c9023af627914d18fec856cda1a9319054b03d2e30bdc797a25f5622d2bf1",
+          "metadataContractHash": "8e4bdad9eeb24ccfd613f8749dabc4c0be26a1b5e75f97c2f9918ad12d58e562",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A correção reticulocitária depende da alteração do tempo de maturação associada à gravidade da anemia. O estudo original usou anemia provocada por flebotomia em pessoas normais; faixas simplificadas locais não foram confirmadas pelo resumo. O índice não determina sozinho etiologia ou reserva medular em qualquer doença.",
     "sourceLimitEvidence": {
@@ -438,20 +466,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/indice-de-producao-reticulocitaria/calculator.js",
-    "bytes": 4945,
-    "sha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9"
+    "bytes": 5150,
+    "sha256": "83503d417649408cd40ad9598272952817547d6b37a439a7719717266bf959d3"
   },
-  "sourceToolSha256": "3d7eba576c3749bc52b33dee8ac023bba0ecadff7a6be4461cccb816237e5f48",
+  "sourceToolSha256": "d4310a23aa4c5c796c16ea7a90b3049541bf679347cf56147af64cb4f1f33a7c",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "a0152a94a164349ce0b4a186f5c53d1babd2c7c16b47536f63e0df8f20978e7a",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "a0152a94a164349ce0b4a186f5c53d1babd2c7c16b47536f63e0df8f20978e7a",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

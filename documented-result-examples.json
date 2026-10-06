@@ -1,0 +1,1803 @@
+{
+  "id": "indice-de-producao-reticulocitaria",
+  "implementationVersion": "indice-de-producao-reticulocitaria@native-2026-10-05+83503d417649",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulócitos corrigidos pelo hematócrito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3,3%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fator de maturação usado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2,0 dia(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: anemia hipoproliferativa (produção insuficiente)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulócitos corrigidos pelo hematócrito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "6,7%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fator de maturação usado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1,5 dia(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: resposta medular adequada (hemólise ou perda aguda)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulócitos corrigidos pelo hematócrito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3,0%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fator de maturação usado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2,0 dia(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: anemia hipoproliferativa (produção insuficiente)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulócitos corrigidos pelo hematócrito",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "4,0%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fator de maturação usado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2,0 dia(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR entre 2 e 3: resposta limítrofe",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocytes corrected by hematocrit",
+                "locale": "en",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.3%",
+                "locale": "en",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maturation factor used",
+                "locale": "en",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0 day(s)",
+                "locale": "en",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: hypoproliferative anemia (insufficient production)",
+            "locale": "en",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocytes corrected by hematocrit",
+                "locale": "en",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6.7%",
+                "locale": "en",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maturation factor used",
+                "locale": "en",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1.5 day(s)",
+                "locale": "en",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: adequate marrow response (hemolysis or acute loss)",
+            "locale": "en",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocytes corrected by hematocrit",
+                "locale": "en",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.0%",
+                "locale": "en",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maturation factor used",
+                "locale": "en",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0 day(s)",
+                "locale": "en",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: hypoproliferative anemia (insufficient production)",
+            "locale": "en",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocytes corrected by hematocrit",
+                "locale": "en",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4.0%",
+                "locale": "en",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maturation factor used",
+                "locale": "en",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0 day(s)",
+                "locale": "en",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR between 2 and 3: borderline response",
+            "locale": "en",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocitos corregidos por el hematocrito",
+                "locale": "es",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,3%",
+                "locale": "es",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Factor de maduración utilizado",
+                "locale": "es",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 día(s)",
+                "locale": "es",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: anemia hipoproliferativa (producción insuficiente)",
+            "locale": "es",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocitos corregidos por el hematocrito",
+                "locale": "es",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6,7%",
+                "locale": "es",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Factor de maduración utilizado",
+                "locale": "es",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1,5 día(s)",
+                "locale": "es",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: respuesta medular adecuada (hemólisis o pérdida aguda)",
+            "locale": "es",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocitos corregidos por el hematocrito",
+                "locale": "es",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,0%",
+                "locale": "es",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Factor de maduración utilizado",
+                "locale": "es",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 día(s)",
+                "locale": "es",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: anemia hipoproliferativa (producción insuficiente)",
+            "locale": "es",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticulocitos corregidos por el hematocrito",
+                "locale": "es",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4,0%",
+                "locale": "es",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Factor de maduración utilizado",
+                "locale": "es",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 día(s)",
+                "locale": "es",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR entre 2 y 3: respuesta limítrofe",
+            "locale": "es",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Réticulocytes corrigés par l’hématocrite",
+                "locale": "fr",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,3%",
+                "locale": "fr",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Facteur de maturation utilisé",
+                "locale": "fr",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 jour(s)",
+                "locale": "fr",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2 : anémie hypoproliférative (production insuffisante)",
+            "locale": "fr",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Réticulocytes corrigés par l’hématocrite",
+                "locale": "fr",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6,7%",
+                "locale": "fr",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Facteur de maturation utilisé",
+                "locale": "fr",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1,5 jour(s)",
+                "locale": "fr",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3 : réponse médullaire adéquate (hémolyse ou perte aiguë)",
+            "locale": "fr",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Réticulocytes corrigés par l’hématocrite",
+                "locale": "fr",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,0%",
+                "locale": "fr",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Facteur de maturation utilisé",
+                "locale": "fr",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 jour(s)",
+                "locale": "fr",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2 : anémie hypoproliférative (production insuffisante)",
+            "locale": "fr",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Réticulocytes corrigés par l’hématocrite",
+                "locale": "fr",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4,0%",
+                "locale": "fr",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Facteur de maturation utilisé",
+                "locale": "fr",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 jour(s)",
+                "locale": "fr",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR entre 2 et 3 : réponse limite",
+            "locale": "fr",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Nach Hämatokrit korrigierte Retikulozyten",
+                "locale": "de",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,3%",
+                "locale": "de",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Verwendeter Reifungsfaktor",
+                "locale": "de",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 Tag(e)",
+                "locale": "de",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: hypoproliferative Anämie (unzureichende Produktion)",
+            "locale": "de",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Nach Hämatokrit korrigierte Retikulozyten",
+                "locale": "de",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6,7%",
+                "locale": "de",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Verwendeter Reifungsfaktor",
+                "locale": "de",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1,5 Tag(e)",
+                "locale": "de",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: adäquate Knochenmarkantwort (Hämolyse oder akuter Verlust)",
+            "locale": "de",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Nach Hämatokrit korrigierte Retikulozyten",
+                "locale": "de",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,0%",
+                "locale": "de",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Verwendeter Reifungsfaktor",
+                "locale": "de",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 Tag(e)",
+                "locale": "de",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: hypoproliferative Anämie (unzureichende Produktion)",
+            "locale": "de",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Nach Hämatokrit korrigierte Retikulozyten",
+                "locale": "de",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4,0%",
+                "locale": "de",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Verwendeter Reifungsfaktor",
+                "locale": "de",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 Tag(e)",
+                "locale": "de",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR zwischen 2 und 3: grenzwertige Antwort",
+            "locale": "de",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticolociti corretti per l’ematocrito",
+                "locale": "it",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,3%",
+                "locale": "it",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fattore di maturazione utilizzato",
+                "locale": "it",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 giorno/i",
+                "locale": "it",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: anemia ipoproliferativa (produzione insufficiente)",
+            "locale": "it",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticolociti corretti per l’ematocrito",
+                "locale": "it",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6,7%",
+                "locale": "it",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fattore di maturazione utilizzato",
+                "locale": "it",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1,5 giorno/i",
+                "locale": "it",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: risposta midollare adeguata (emolisi o perdita acuta)",
+            "locale": "it",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticolociti corretti per l’ematocrito",
+                "locale": "it",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3,0%",
+                "locale": "it",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fattore di maturazione utilizzato",
+                "locale": "it",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 giorno/i",
+                "locale": "it",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: anemia ipoproliferativa (produzione insufficiente)",
+            "locale": "it",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reticolociti corretti per l’ematocrito",
+                "locale": "it",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4,0%",
+                "locale": "it",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fattore di maturazione utilizzato",
+                "locale": "it",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2,0 giorno/i",
+                "locale": "it",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR tra 2 e 3: risposta borderline",
+            "locale": "it",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الخلايا الشبكية المصححة حسب الهيماتوكريت",
+                "locale": "ar",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "٣٫٣%",
+                "locale": "ar",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عامل النضج المستخدم",
+                "locale": "ar",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "٢٫٠ يوم(أيام)",
+                "locale": "ar",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: فقر دم ناقص التكاثر (إنتاج غير كافٍ)",
+            "locale": "ar",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الخلايا الشبكية المصححة حسب الهيماتوكريت",
+                "locale": "ar",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "٦٫٧%",
+                "locale": "ar",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عامل النضج المستخدم",
+                "locale": "ar",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "١٫٥ يوم(أيام)",
+                "locale": "ar",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: استجابة نقيّة كافية (انحلال الدم أو فقدان حاد)",
+            "locale": "ar",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الخلايا الشبكية المصححة حسب الهيماتوكريت",
+                "locale": "ar",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "٣٫٠%",
+                "locale": "ar",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عامل النضج المستخدم",
+                "locale": "ar",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "٢٫٠ يوم(أيام)",
+                "locale": "ar",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: فقر دم ناقص التكاثر (إنتاج غير كافٍ)",
+            "locale": "ar",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الخلايا الشبكية المصححة حسب الهيماتوكريت",
+                "locale": "ar",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "٤٫٠%",
+                "locale": "ar",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عامل النضج المستخدم",
+                "locale": "ar",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "٢٫٠ يوم(أيام)",
+                "locale": "ar",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR بين 2 و3: استجابة حدّية",
+            "locale": "ar",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "按血细胞比容校正的网织红细胞",
+                "locale": "zh",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.3%",
+                "locale": "zh",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用的成熟因子",
+                "locale": "zh",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0天",
+                "locale": "zh",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2：低增生性贫血（生成不足）",
+            "locale": "zh",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "按血细胞比容校正的网织红细胞",
+                "locale": "zh",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6.7%",
+                "locale": "zh",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用的成熟因子",
+                "locale": "zh",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1.5天",
+                "locale": "zh",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3：骨髓反应充分（溶血或急性失血）",
+            "locale": "zh",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "按血细胞比容校正的网织红细胞",
+                "locale": "zh",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.0%",
+                "locale": "zh",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用的成熟因子",
+                "locale": "zh",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0天",
+                "locale": "zh",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2：低增生性贫血（生成不足）",
+            "locale": "zh",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "按血细胞比容校正的网织红细胞",
+                "locale": "zh",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4.0%",
+                "locale": "zh",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用的成熟因子",
+                "locale": "zh",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0天",
+                "locale": "zh",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR 介于 2 和 3 之间：临界反应",
+            "locale": "zh",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ヘマトクリットで補正した網状赤血球",
+                "locale": "ja",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.3%",
+                "locale": "ja",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用した成熟係数",
+                "locale": "ja",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0日",
+                "locale": "ja",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2：低増殖性貧血（産生不十分）",
+            "locale": "ja",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ヘマトクリットで補正した網状赤血球",
+                "locale": "ja",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6.7%",
+                "locale": "ja",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用した成熟係数",
+                "locale": "ja",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1.5日",
+                "locale": "ja",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: 骨髄反応は適切（溶血または急性出血）",
+            "locale": "ja",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ヘマトクリットで補正した網状赤血球",
+                "locale": "ja",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.0%",
+                "locale": "ja",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用した成熟係数",
+                "locale": "ja",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0日",
+                "locale": "ja",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2：低増殖性貧血（産生不十分）",
+            "locale": "ja",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ヘマトクリットで補正した網状赤血球",
+                "locale": "ja",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4.0%",
+                "locale": "ja",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "使用した成熟係数",
+                "locale": "ja",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0日",
+                "locale": "ja",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR 2〜3：境界域の反応",
+            "locale": "ja",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "हेमाटोक्रिट के अनुसार संशोधित रेटिकुलोसाइट्स",
+                "locale": "hi",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.3%",
+                "locale": "hi",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "उपयोग किया गया परिपक्वता कारक",
+                "locale": "hi",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0 दिन",
+                "locale": "hi",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: हाइपोप्रोलिफेरेटिव एनीमिया (अपर्याप्त उत्पादन)",
+            "locale": "hi",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "हेमाटोक्रिट के अनुसार संशोधित रेटिकुलोसाइट्स",
+                "locale": "hi",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "6.7%",
+                "locale": "hi",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  6.7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "उपयोग किया गया परिपक्वता कारक",
+                "locale": "hi",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "1.5 दिन",
+                "locale": "hi",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR ≥ 3: पर्याप्त अस्थि मज्जा प्रतिक्रिया (हीमोलिसिस या तीव्र हानि)",
+            "locale": "hi",
+            "template": "documented-authored-ad1e10a29190f1abe9e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "हेमाटोक्रिट के अनुसार संशोधित रेटिकुलोसाइट्स",
+                "locale": "hi",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "3.0%",
+                "locale": "hi",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "उपयोग किया गया परिपक्वता कारक",
+                "locale": "hi",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0 दिन",
+                "locale": "hi",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR < 2: हाइपोप्रोलिफेरेटिव एनीमिया (अपर्याप्त उत्पादन)",
+            "locale": "hi",
+            "template": "documented-authored-ea15b3dee9daab5d0033"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "हेमाटोक्रिट के अनुसार संशोधित रेटिकुलोसाइट्स",
+                "locale": "hi",
+                "template": "documented-authored-633bee219ec0747d7d26"
+              },
+              "value": {
+                "text": "4.0%",
+                "locale": "hi",
+                "template": "documented-authored-3d034a68cd29793aad4b",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "उपयोग किया गया परिपक्वता कारक",
+                "locale": "hi",
+                "template": "documented-authored-c1d0512689b39e39087b"
+              },
+              "value": {
+                "text": "2.0 दिन",
+                "locale": "hi",
+                "template": "documented-authored-ce62f1d093f6e2b4c539",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IPR 2 और 3 के बीच: सीमावर्ती प्रतिक्रिया",
+            "locale": "hi",
+            "template": "documented-authored-83dfbc07404b59743955"
+          },
+          "level": "mid"
+        }
+      }
+    ]
+  }
+}

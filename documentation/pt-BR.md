@@ -65,3 +65,47 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+IPR < 2: anemia hipoproliferativa (produção insuficiente)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Reticulócitos corrigidos pelo hematócrito | 3,3% |
+| Fator de maturação usado | 2,0 dia(s) |
+
+
+### 2
+
+IPR ≥ 3: resposta medular adequada (hemólise ou perda aguda)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Reticulócitos corrigidos pelo hematócrito | 6,7% |
+| Fator de maturação usado | 1,5 dia(s) |
+
+
+### 3
+
+IPR < 2: anemia hipoproliferativa (produção insuficiente)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Reticulócitos corrigidos pelo hematócrito | 3,0% |
+| Fator de maturação usado | 2,0 dia(s) |
+
+
+### 4
+
+IPR entre 2 e 3: resposta limítrofe
+
+| Detalhes do resultado | |
+| --- | --- |
+| Reticulócitos corrigidos pelo hematócrito | 4,0% |
+| Fator de maturação usado | 2,0 dia(s) |
+

@@ -65,3 +65,47 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+IPR < 2 : anémie hypoproliférative (production insuffisante)
+
+| Détails du résultat | |
+| --- | --- |
+| Réticulocytes corrigés par l’hématocrite | 3,3% |
+| Facteur de maturation utilisé | 2,0 jour(s) |
+
+
+### 2
+
+IPR ≥ 3 : réponse médullaire adéquate (hémolyse ou perte aiguë)
+
+| Détails du résultat | |
+| --- | --- |
+| Réticulocytes corrigés par l’hématocrite | 6,7% |
+| Facteur de maturation utilisé | 1,5 jour(s) |
+
+
+### 3
+
+IPR < 2 : anémie hypoproliférative (production insuffisante)
+
+| Détails du résultat | |
+| --- | --- |
+| Réticulocytes corrigés par l’hématocrite | 3,0% |
+| Facteur de maturation utilisé | 2,0 jour(s) |
+
+
+### 4
+
+IPR entre 2 et 3 : réponse limite
+
+| Détails du résultat | |
+| --- | --- |
+| Réticulocytes corrigés par l’hématocrite | 4,0% |
+| Facteur de maturation utilisé | 2,0 jour(s) |
+

@@ -65,3 +65,47 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+IPR < 2: hypoproliferative Anämie (unzureichende Produktion)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Nach Hämatokrit korrigierte Retikulozyten | 3,3% |
+| Verwendeter Reifungsfaktor | 2,0 Tag(e) |
+
+
+### 2
+
+IPR ≥ 3: adäquate Knochenmarkantwort (Hämolyse oder akuter Verlust)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Nach Hämatokrit korrigierte Retikulozyten | 6,7% |
+| Verwendeter Reifungsfaktor | 1,5 Tag(e) |
+
+
+### 3
+
+IPR < 2: hypoproliferative Anämie (unzureichende Produktion)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Nach Hämatokrit korrigierte Retikulozyten | 3,0% |
+| Verwendeter Reifungsfaktor | 2,0 Tag(e) |
+
+
+### 4
+
+IPR zwischen 2 und 3: grenzwertige Antwort
+
+| Ergebnisdetails | |
+| --- | --- |
+| Nach Hämatokrit korrigierte Retikulozyten | 4,0% |
+| Verwendeter Reifungsfaktor | 2,0 Tag(e) |
+

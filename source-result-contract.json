@@ -1,0 +1,282 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "indice-de-producao-reticulocitaria",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "c791817f2f79ee934d0bb1ceab72bfdaa62c0f6d",
+    "oldEngineSha256": "251882d75bf7c51cd7e12d81c45ce6f07398a4b045fb09a5561e8082a1a7bba9",
+    "currentEngineSha256": "83503d417649408cd40ad9598272952817547d6b37a439a7719717266bf959d3"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Reticulócitos 6%, Ht 25%: corrigidos 3,33%, fator 2 → IPR 1,67",
+      "input": {
+        "ret": 6,
+        "ht": 25
+      },
+      "publicOutput": {
+        "id": "indice-de-producao-reticulocitaria",
+        "main": [
+          "1,7",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "raw": {
+          "corr": 3.3333333333333335,
+          "mf": 2,
+          "ipr": 1.6666666666666667
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "corr": 3.333,
+          "mf": 2,
+          "ipr": 1.667
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "1,7",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "level": "high",
+        "verdict": "IPR < 2: anemia hipoproliferativa (produção insuficiente)",
+        "rows": [
+          [
+            "Reticulócitos corrigidos pelo hematócrito",
+            "3,3%"
+          ],
+          [
+            "Fator de maturação usado",
+            "2,0 dia(s)"
+          ]
+        ],
+        "raw": {
+          "corr": 3.3333333333333335,
+          "mf": 2,
+          "ipr": 1.6666666666666667
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Reticulócitos 10%, Ht 30%: corrigidos 6,67%, fator 1,5 → IPR 4,44",
+      "input": {
+        "ret": 10,
+        "ht": 30
+      },
+      "publicOutput": {
+        "id": "indice-de-producao-reticulocitaria",
+        "main": [
+          "4,4",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "raw": {
+          "corr": 6.666666666666667,
+          "mf": 1.5,
+          "ipr": 4.444444444444445
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "corr": 6.667,
+          "mf": 1.5,
+          "ipr": 4.444
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4,4",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "level": "low",
+        "verdict": "IPR ≥ 3: resposta medular adequada (hemólise ou perda aguda)",
+        "rows": [
+          [
+            "Reticulócitos corrigidos pelo hematócrito",
+            "6,7%"
+          ],
+          [
+            "Fator de maturação usado",
+            "1,5 dia(s)"
+          ]
+        ],
+        "raw": {
+          "corr": 6.666666666666667,
+          "mf": 1.5,
+          "ipr": 4.444444444444445
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Corte: reticulócitos 5,4%, Ht 25%: corrigidos 3,0%, IPR 1,5",
+      "input": {
+        "ret": 5.4,
+        "ht": 25
+      },
+      "publicOutput": {
+        "id": "indice-de-producao-reticulocitaria",
+        "main": [
+          "1,5",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "raw": {
+          "corr": 3,
+          "mf": 2,
+          "ipr": 1.5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "corr": 3,
+          "ipr": 1.5
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "1,5",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "level": "high",
+        "verdict": "IPR < 2: anemia hipoproliferativa (produção insuficiente)",
+        "rows": [
+          [
+            "Reticulócitos corrigidos pelo hematócrito",
+            "3,0%"
+          ],
+          [
+            "Fator de maturação usado",
+            "2,0 dia(s)"
+          ]
+        ],
+        "raw": {
+          "corr": 3,
+          "mf": 2,
+          "ipr": 1.5
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Reticulócitos 9%, Ht 20%: corrigidos 4,0%, fator 2 → IPR 2,0 (limítrofe)",
+      "input": {
+        "ret": 9,
+        "ht": 20
+      },
+      "publicOutput": {
+        "id": "indice-de-producao-reticulocitaria",
+        "main": [
+          "2,0",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "raw": {
+          "corr": 4,
+          "mf": 2,
+          "ipr": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "corr": 4,
+          "ipr": 2
+        },
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2,0",
+          ""
+        ],
+        "label": "Índice de produção reticulocitária",
+        "level": "mid",
+        "verdict": "IPR entre 2 e 3: resposta limítrofe",
+        "rows": [
+          [
+            "Reticulócitos corrigidos pelo hematócrito",
+            "4,0%"
+          ],
+          [
+            "Fator de maturação usado",
+            "2,0 dia(s)"
+          ]
+        ],
+        "raw": {
+          "corr": 4,
+          "mf": 2,
+          "ipr": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}
